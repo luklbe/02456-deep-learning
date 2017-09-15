@@ -1,0 +1,9 @@
+Notes on CNN's
+
+Classical deep neural nets have a problem with the vanishing gradient. The gradient tends to get smaller as we move backwards from the output to the input.
+So layers closer to the input learn slower.
+
+CNN's idea is that we can extract features of images or whatever we are applying on, so we can share the weights in different parts of the input
+
+For a given filter with lighter color on the bottom and darket on top, if we apply it to different parts of the image, we will sort of activate those parts that 
+have lighter color on the bottom and darker on the top
