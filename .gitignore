@@ -9,3 +9,9 @@ logdir/
 *.jpg
 *.png
 *.csv
+*.txt
+*.ctrl
+*.lck
+*.dat
+*.properties
+notebooks/derby.log
